@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>sample news article</title>
+        <style>
+            h1{
+                color: rgb(24, 76, 233);
+                text-align: center;
+            }
+            figcaption{
+                color: rgb(28, 29, 29);
+            }
+            h2{
+                color:red;
+                text-align: left;
+            }
+            .body{
+                color: black;
+                text-align: left;
+            }
+            articleimage{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>NEWS ARTICLE</h1>
+        <header>
+         <bold><h2>Breaking News:A news drawn in cricket</h2></bold>
+            <p class="whom">By Jan September 21,2025</p>
+        </header>
+        <main>
+            <article class="news">
+                <figure class="articleimage">
+                    <img src="D:\aiswarya\aishu.jpg" alt="no match" height="250" width="250">
+                    <figcaption>so many intresting matches was held under the captainacy of M.S.DHOHI </figcaption>
+                </figure>
+                <section class="body">
+                    <p>MS Dhoni captained India in a total of 331 international matches across all formats (Test, ODI, and T20I) between 2007 and 2017, leading India to numerous victories, including the 2007 T20 World Cup, the 2010 Asia Cup, the 2011 ODI World Cup, and the 2013 Champions Trophy. </p>
+                    <p>Breakdown of Captaincy Matches: ODIs: 200 matches,T20Is: 74 matches,Tests: 60 matches</p>
+                    <blockquote>"Key Achievements Under Dhoni's Captaincy:2007 World Twenty20: Led India to victory in the inaugural T20 World Cup. ,2010 Asia Cup: Captained India to the Asia Cup title. ,2011 Cricket World Cup: Guided India to their second ODI World Cup title. ,2013 Champions Trophy: Led India to victory in the Champions Trophy. ,Test Rankings: Under his leadership, India topped the Test rankings for the first time in 2009"</blockquote>
+                    <p>guished IPL history primarily with the Chennai Super Kings (CSK), marked by his record five IPL titles (2010, 2011, 2018, 2021, 2023) and multiple captaincy records, including most wins and most playoff appearances. He also played for the Rising Pune Supergiant (RPSG) for two seasons (2016 and 2017) before returning to CSK. In his career, Dhoni has scored over 5,000 runs, been a consistent performer, and is known for his wicketkeeping and strategic brilliance as a captain.</p>
+                </section>
+            </article>
+               <footer>
+        <p>&copy; 2025 Sample News Inc. All rights reserved.</p>
+    </footer>
+        </main>
+    </body>
+</html>
