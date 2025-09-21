@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inspiration blog page</title>
+    <style>
+        h1{
+            text-align: center;
+            padding-right: 350px;
+        }
+        h2{
+            text-align: center;
+            color: crimson;
+        }
+        .container{
+            color: blue;
+            font-size: large;
+        }
+        .writer{
+            border: 5px black;
+            border-color: aliceblue;
+            border-radius: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MY INSPIRATION</h1>
+    <div class="container">
+        <div class="profile">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="D:\aiswarya\yoshi.jpg" alt="role mode" height="200" width="200">
+             <h2> role model and motivational speaker</h2>
+            <p>Dr. A.P.J. Abdul Kalam was born on October 15, 1931, in Rameswaram, a small town on the southeastern coast of India in Tamil Nadu to his parents Jainulabdin,Ashiyamma.</p>
+            <p>His full name was Avul Pakir Jainulabdeen Abdul Kalam</p>
+    </div>
+    <div class="education">
+        <h2>EDUCATION</h2>
+        <p>Dr. A.P.J. Abdul Kalam’s educational journey started in his hometown of Rameswaram. He attended Schwartz Higher Secondary School, a local school that played a significant role in his early education. Kalam was an enthusiastic student who had a strong desire to learn and explore new subjects.</p>
+        <p>He was a brilliant student, excelling in mathematics and physics. 
+He earned a degree in physics from Saint Joseph's College, Tiruchirapalli, and later specialized in aeronautical engineering at the Madras Institute of Technology. 
+Career in Science and Technology</p>
+    </div>
+    <div class="career">
+        <h2>CAREER</h2>
+        <p>He joined DRDO (Defence Research and Development Organisation) and later became the project director for ISRO's SLV-III program. 
+His work on SLV-III in 1980 was crucial for India's success in the Space Club. 
+He served as the scientific adviser to the defense minister from 1992 to 1999, and as the principal scientific adviser to the government from 1999 to 2001. 
+Kalam was a key coordinator of the 1998 Pokhran-II nuclear tests, which established India as a nuclear power. 
+He envisioned "Technology Vision 2020" to transform India into a developed nation by 2020. 
+Presidency
+He was elected as India's 11th President in 2002 and served a five-year term. 
+Known as the "People's President," he aimed to connect with young people and dedicated his term to a goal of conducting 500,000 one-on-one meetings with youth. 
+Later Life and Legacy
+After leaving office, he became a visiting professor at several universities. 
+He formed the "What Can I Give Movement" to foster a compassionate society. </p>
+    </div>
+    <div class="achivements">
+        <h2>ACHIVEMENTS</h2>
+        <p>"Dr. APJ Abdul Kalam awards" can refer to the awards he received, including the Bharat Ratna (1997), Padma Vibhushan (1990), and Padma Bhushan (1981), or the awards named after him. The latter includes the Dr. A. P. J. Abdul Kalam Award given by the Government of Tamil Nadu, the IGNITE Awards for children's innovations, and awards given by various foundations and institutions to recognize excellence in their respective fields.</p>
+    </div>
+    <div class="writer">
+        <h2>WRITER</h2>
+        <table>
+            <tr>
+                <td rowspan="1">Wings of Fire--1999</td>
+            </tr>
+            <tr>
+                <td>Ignited Mind--2002</td>
+            </tr>
+            <tr>
+                <td>India 2020--1998</td>
+            </tr>
+            <tr>
+                <td>The Luminous Sparks--2004</td>
+            </tr>
+        </table>
+    </div>
+    <div class="demise">
+        <h2>DEMISE</h2>
+        <p>He formed the "What Can I Give Movement" to foster a compassionate society. 
+On July 27, 2015, he collapsed while delivering a lecture at IIM Shillong and passed away from cardiac arrest at the age of 83. </p>
+    </div>
+    </div>
+</body>
+</html>
