@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tags</title>
+    <style>
+        h1{
+            color: rgb(248, 81, 21); 
+        }
+        p{
+            color: rgb(38, 27, 90);   <!--element selector>
+        }
+        .aishu{
+            background-color: blue;<!--class selector>
+            color: black;
+        }
+        #aishu{
+            background-color: rgb(241, 37, 5);
+            color: black;
+            margin: auto;<!--id selector>
+            border: 0ch;
+            padding: 0%;
+        }
+        input[type="text"]{
+            color:blue;
+            background-color: blanchedalmond;<!---element with attribute selector>
+            border-radius: 2px;
+        }
+ *{
+            background-color: black;<!--univarsal selector>
+        }
+    </style>
+</head>
+<body>
+    <h1>tags</h1>
+    <p>html samantic & nonsemantic tags using selectors</p>
+    <div class="aishu">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quidem!</p>
+    </div>
+    <div id="aishu">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sed?</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, commodi!</p>
+    </div>
+    <form>
+        NAME:<input type="text" id="fname" name="fname" placeholder="NAME" required >
+    </form>
+</body>
+</html>
