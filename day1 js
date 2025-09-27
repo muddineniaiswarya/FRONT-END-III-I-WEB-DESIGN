@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //variable
+        let name1="john";
+        let age1=20;
+        console.log(name1);
+        console.log(age1);
+        //number
+        let age=25;
+        let price=99.9;
+        let inf=Infinity;
+        let notNumber=NaN;
+        console.log(typeof age);
+        console.log(typeof price);
+        console.log(typeof inf);
+        console.log(typeof notNumber);
+        console.log(age);
+        console.log(price);
+        console.log(inf);
+        console.log(notNumber);
+        //string
+        let name='john';
+        let greeting="hello!";
+        let template=`hi ${name},welcome!`;
+        console.log(typeof name);
+        console.log(name);
+        //boolean
+        let isLoggedin=true;
+        let isAdult=false;
+        console.log(typeof isLoggedin);
+        //undefined
+        let x;
+        console.log(x);
+        console.log(typeof x);
+        //null
+        let y=null;
+        console.log(y);
+        console.log(typeof y);
+        //symbol
+        let id=Symbol('id');
+        let id2=Symbol('id');
+        console.log(id===id2);
+        console.log(typeof id);
+        //big int
+        let bigNumber=12345n;
+        console.log(typeof bigNumber);
+
+    </script>
+</body>
+</html>
