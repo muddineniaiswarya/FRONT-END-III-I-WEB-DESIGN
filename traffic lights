@@ -1,0 +1,70 @@
+//html code for traffic lights
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BOX.css">
+</head>
+<body>
+    <h2>Traffic lights</h2>
+    <div class="con">
+    <div id="n">STOP</div>
+    <div id="h">WAIT</div>
+    <div id="s">GO</div>
+    </div>
+</body>
+</html>
+
+//css code
+h2{
+    color: rgb(233, 57, 13);
+    text-align: center;
+    margin-right: 200px;
+}
+#con{
+    height:500px;
+    width: 175px;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 15%;
+    margin: 60px;
+    margin-left: 500px;
+    background-color: aqua;
+    
+}
+    
+#n{
+    height: 100px;
+    width: 100px;
+    padding: 15px 15px 15px 15px;
+    border: 10px solid rgb(155, 2, 71);
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgba(252, 5, 5, 0.868);
+    text-align: center;
+    font-style: bold;
+}
+#h{
+    height: 100px;
+    width: 100px;
+    padding: 15px 15px 15px 15px;
+    border: 10px solid rgb(210, 20, 109);
+    margin: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+    font-style: bold;
+}
+#s{
+    height: 100px;
+    width: 100px;
+    padding: 15px 15px 15px 15px;
+    border: 10px solid rgb(175, 9, 45);
+    margin:10px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    font-style: bold;
+}
