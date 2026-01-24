@@ -1,0 +1,28 @@
+package aiswarya;
+import java.util.Scanner;
+
+public class calculator {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Sub Marks:");
+		int s1=sc.nextInt();
+		System.out.println("Enter sub  marks:");
+		int s2=sc.nextInt();
+		System.out.println("Enter sub marks:");
+		int s3=sc.nextInt();
+		System.out.println("Enter sub marks:");
+		int s4=sc.nextInt();
+		System.out.println("Enter sub marks:");
+		int s5=sc.nextInt();
+		System.out.println("Enter total marks:");
+		int sub=sc.nextInt();
+		int total=s1+s2+s3+s4+s5;
+		System.out.println(total);
+			int t2=total*100/sub;
+			System.out.println("percentage:" +t2);		
+		sc.close();
+
+	}
+
+}
