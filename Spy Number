@@ -1,0 +1,33 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class Spy {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a Number:");
+		int spy=sc.nextInt();
+		int sum=0;
+		int pro=1;
+		int i=spy;
+		while(spy!=0) {
+			spy=spy%10;
+			sum+=spy;
+			pro*=spy;
+			spy=spy/10;
+//			i++;
+			
+		}
+//		System.out.println(sum);
+		if(sum==pro) {
+			System.out.println("spy number");
+		}
+		else {
+			System.out.println("not spy");
+		}
+		
+		sc.close();
+
+	}
+
+}
