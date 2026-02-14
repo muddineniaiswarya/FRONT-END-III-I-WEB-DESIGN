@@ -1,0 +1,16 @@
+package aiswarya2;
+
+public class a5 {
+
+	public static void main(String[] args) {
+		int a=29;
+		if(a%2!=0)
+		{
+		System.out.println("odd number");
+	}
+		else {
+			System.out.println("even number");
+		}
+	}
+
+}
