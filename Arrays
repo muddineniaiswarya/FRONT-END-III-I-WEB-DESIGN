@@ -1,0 +1,115 @@
+et marks=[1,2,3,4];
+console.log(marks);
+console.log(marks.length);
+console.log(typeof marks);
+console.log(marks[0] ,"using the index");
+for(i=0;i<marks.length;i++){
+    console.log(marks[i]);
+}
+console.log("=============");
+for(datas of marks){
+    console.log(datas);
+}
+let data=0;
+let students=[85,97,44,37,76,60];
+for(i=0;i<students.length;i++){
+     data+=students[i];
+     
+}
+console.log(data);
+console.log(data/students.length);
+console.log("=====================");
+let arr=[250,645,300,900,50];
+let d;
+// let j;
+// let stu=d[j];
+for(i=0;i<arr.length;i++){
+    // d=arr[i]%10;
+     d=arr[i]*(10/100);
+     arr[i]=arr[i]-d;
+    console.log(d);
+    // stu=d;
+    console.log(`${arr[i]}`);
+}
+let numbers=[1,2,3,4];
+numbers.push(5);
+console.log(numbers);
+let fruits=["mango","banana"];
+fruits.push("grapes");
+console.log(fruits);
+let num=[3,4,5];
+num.pop();
+console.log(num);
+let foodItems=["potato","apple","litchi","tomato"];
+let deleted=foodItems.pop();
+// console.log(foodItems);
+console.log(deleted);
+let a=[1,2,3,4];
+// console.log(typeof a);
+let b=a.toString();
+console.log(typeof b);
+console.log("===================");
+//task1
+let num1=[10,20,30,40];
+num1.push(50);
+console.log(num1);
+num1.pop(num1);
+let c=num1.toString();
+console.log(num1);
+console.log(typeof c);
+let n1=[12,13,14];
+let n2=[13,1,15];
+let s=n1.concat(n2);
+console.log(s);
+n1.unshift(0);
+console.log(n1);
+let removed=n1.shift();
+console.log(removed);
+// n1.deleted(13);
+console.log(n1);
+let s1=s.sort();
+console.log(s1);
+//sort
+console.log("=============");
+let a1=[10,20,30];
+let b1=[40,50,60];
+a1.unshift(100); 
+console.log(a1);
+b1.shift();
+console.log(b1);
+let c1=a1.concat(b1);
+console.log(c1);
+c1.shift();
+console.log(c1);
+console.log("=============");
+//slice
+let fruit=["mango","banana","grapes","apple"];
+let newfruit=fruit.slice(1,3);
+console.log(fruit);
+console.log(newfruit);//doesnot change real array
+//splice
+let fruit1=["mango","banana","grapes","apple"];
+fruit1.splice(0,2,102,103);
+console.log(fruit1);//change real array
+fruit1.splice(3,0,109);
+console.log(fruit1);
+//task 2
+let com=["bloomberg","microsoft","uber","google","ibm","netflix"];
+// com.slice(0,0)
+com.splice(0,1);
+// console.log(com);
+com.splice(1,1,"ola");
+// console.log(com)
+// console.log(c17);
+com.splice(com.length,0,"amazon");
+console.log(com);
+console.log("");
+//functions
+function greet(){
+    console.log("Hello");
+}
+greet();
+greet();
+greet();
+greet();
+console.log(" ");
