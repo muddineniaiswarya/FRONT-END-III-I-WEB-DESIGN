@@ -1,0 +1,32 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class Perfect {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=sc.nextInt();
+//		int s=n;
+		int sum=0;
+//		while(n>0) {
+			
+			for(int i=1;i<=n/2;i++) {
+				if(n%i==0) {
+					sum+=i;
+				}
+			}
+//			n=n/10;
+			
+//		}
+		//	System.out.println(sum);
+      	if(n==sum && n!=0) {
+			System.out.println("perfect number");
+		}
+		else {
+			System.out.println("not perfect number");
+		}
+         sc.close();
+	}
+
+}
