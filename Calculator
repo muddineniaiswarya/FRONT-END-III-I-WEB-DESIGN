@@ -1,0 +1,42 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class calculator {
+
+	public static void main(String[] args) {
+          Scanner sc=new Scanner(System.in);
+          System.out.print("Enter number1:");
+          int a=sc.nextInt();
+          System.out.print("Enter number 2:");
+          int b=sc.nextInt();
+          System.out.print("Enter any operator:");
+          char ch=sc.next().charAt(0);
+          switch(ch) {
+          case '+':
+        	  int sum=a+b;
+        	  System.out.print("sum:" +sum);
+        	  break;
+          case '-':
+        	  int sub=a-b;
+        	  System.out.print("sub:" +sub);
+        	  break;
+          case '*':
+        	  int mul=a*b;
+        	  System.out.print("mul:" +mul);
+        	  break;
+          case '/':
+        	  if(b!=0) {
+        	  System.out.print("result" +(a/b));
+        	  }
+        	  else {
+        		  System.out.println("can not divide with zero");
+        	  }
+        	  break;
+          default:
+        		  System.out.print("ok");
+        	  
+          }
+          sc.close();
+	}
+
+}
