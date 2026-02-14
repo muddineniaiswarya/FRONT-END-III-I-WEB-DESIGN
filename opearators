@@ -1,0 +1,34 @@
+const student = { 
+   fullName : "aishu",
+    age : 20,
+    adress : "gudlavalleru" ,
+    cgpa : 8.5,
+    clg : "sviet",
+    pass : true
+}
+console.log(student)
+console.log(student["adress"])
+
+
+a1=12
+b1="ai"
+c=null
+d = undefined
+console.log(typeof d)
+console.log(typeof c)
+
+a=12
+b=2
+console.log(a+b) //16
+console.log(a-b) //10
+console.log(a*b) //24
+console.log(a/b) //6
+console.log(a%b) //0
+
+a2=12
+b2=2
+console.log(a2+=b2) //14
+console.log(a2-=b2) //12
+console.log(a2*=b2) //24
+console.log(a2%=b2) //0
+console.log(a2**=b2) //0+
