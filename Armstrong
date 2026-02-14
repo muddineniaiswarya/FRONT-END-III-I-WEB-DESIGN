@@ -1,0 +1,38 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class Armstrong {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a Number:");
+		int a=sc.nextInt();
+		int c=a;
+		int count=1;	
+		int num1=0;
+//		int mul=1;
+//		int i=1;
+//		while(a!=0) {
+//			count++;
+//			a=a/10;
+//		}
+//		System.out.println(count);
+		
+		while(a!=0){
+			count=a%10;
+//			a*=count;
+			num1=num1+(count*count*count*count);
+//			mul=num1;
+			a=a/10;
+		}
+//		System.out.println(num1);
+		if(num1==c) {
+			System.out.println("armstrong");
+		}
+		else {
+			System.out.println("not an armstrong");
+		}
+         sc.close();
+	}
+
+}
