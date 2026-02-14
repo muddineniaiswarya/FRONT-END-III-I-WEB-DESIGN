@@ -1,0 +1,31 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class Neon {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int ne=sc.nextInt();
+		int c=ne;
+		int sum=0;
+		
+
+		int mul=ne*ne;
+		while(mul!=0) {
+			 int a=mul%10;
+			sum+=a;
+			mul=mul/10;
+			
+		}
+		if(sum==c) {
+			System.out.println("Neon Number");
+		}
+		else {
+			System.out.println("Not Neon number");
+		}
+		sc.close();
+
+	}
+
+}
