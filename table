@@ -1,0 +1,21 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class Table {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a number:");
+		int a=sc.nextInt();
+		System.out.println("enter how many times:");
+		int c=10;
+		int b=0;
+		for(int i=1;i<=c;i++) {
+			b=a*i;
+			System.out.println(a+"X"+i+"="+b);
+		}
+		
+        sc.close();
+	}
+
+}
