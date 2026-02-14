@@ -1,0 +1,21 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class auto {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int a=sc.nextInt();
+		int b=a;
+		int mul=a*a;
+		if(mul>0) {
+			if(b%10==mul%10) {
+				System.out.println("Automorphic");
+			}
+			else {
+				System.out.println("Not automorphic");
+			}
+		}
+		sc.close();
+	}
+
