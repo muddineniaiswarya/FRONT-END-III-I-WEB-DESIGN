@@ -1,0 +1,36 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class EvenNo {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a number:");
+		int n=sc.nextInt();
+		int sum=0;
+		int digit=0;
+		int sum1=0;
+		while(n!=0) {
+			digit=n%10; 
+			if(n%2==0) {
+		   sum+=digit;
+//		   n=n/10;
+			}
+			else {
+				sum1+=digit;
+//				System.out.println(sum1);
+			}
+			n=n/10;
+//			if(n%2!=0) {
+//				int digit=n%10; 
+//				   sum1+=digit;
+//				   n=n/10;
+//			}
+			
+		}
+		System.out.println("Even sum:" +sum);
+		System.out.println("odd sum:" +sum1);
+		sc.close();
+	}
+
+}
