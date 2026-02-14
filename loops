@@ -1,0 +1,57 @@
+let age=21;
+let result=age>=18?"adult":"not adult";
+console.log(result);
+
+let num=prompt("enter a number");
+let result=num%5==0?"multiple":"not multiple";
+console.log(result)
+
+let no=prompt("enter a number");
+if(no%5==0){
+    console.log("multiple")
+}
+else{
+    console.log("not multiple")
+}
+
+let namee=prompt("aishu");
+console.log(namee)
+
+let marks=prompt("enter a number");
+if(marks<0 && marks>100){
+    console.log("invalid marks");
+}
+else if(marks>=80 && marks<=100){
+    console.log("grade a")
+}
+else if(marks>=70 && marks<=79){
+    console.log("grade b")
+}
+else if(marks>=60 && marks<=69){
+    console.log("grade c")
+}
+else if(marks>=50 && marks<=59){
+    console.log("grade d")
+}
+else if(marks>=0 && marks<=49){
+    console.log("fail")
+}
+else{
+    console.log("au")
+}
+
+
+for( let i=1;i<=5;i++){
+    console.log("i:" +i);
+} 
+let i=0;
+while(i<=5){
+    console.log("i is:",i)
+    i++;
+}
+let i=1;
+do{
+    console.log("aiswarya");
+    i++;
+}
+while(i<20)
