@@ -1,0 +1,30 @@
+package aiswarya2;
+import java.util.Scanner;
+
+public class palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a number");
+		int n=sc.nextInt(); //121
+//		int num=0;
+		int cv=n;
+//		int sum=0;
+		int rev=0;
+		while(n!=0) {
+				int digit=n%10;//1
+				rev=rev*10+digit;
+				n=n/10; //12
+			}
+		if(cv==rev) {
+			System.out.println("palindrome");
+		}
+		else {
+			System.out.println("not palindrome");
+		}
+		sc.close();
+
+	}
+
+}
