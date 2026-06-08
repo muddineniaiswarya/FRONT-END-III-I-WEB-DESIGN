@@ -1,0 +1,29 @@
+public class Calculaor {
+	
+public	void add(double a,double b) {
+		System.out.println(a+b);
+	}
+public	void sub(double a,double b) {
+		System.out.println(a-b);
+	}
+public	void mul(double a,double b) {
+		System.out.println(a*b);
+	}
+public	void div(double a,double b) {
+		System.out.println(a/b);
+	}
+public	void mod(double a,double b) {
+		System.out.println(a%b);
+	}
+	
+
+	public static void main(String[] args) {
+		Calculaor c=new Calculaor();
+		c.add(123345666,123344555);
+		c.sub(123345666,123344555);
+		c.mul(123345666,123344555);
+		c.div(123345666,123344555);
+		c.mod(123345666,123344555);
+		}
+	}
+
