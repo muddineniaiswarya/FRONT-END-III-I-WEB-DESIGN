@@ -1,0 +1,31 @@
+public class Car {
+
+	public	void car(int year,int date,int capacity) {
+		System.out.println(year);
+		System.out.println(date);
+		System.out.println(capacity);
+		System.out.println("==========");
+	}
+	
+	public	void car(String name,String color) {
+		System.out.println("car name:"+name);
+		System.out.println("car color:"+color);
+		System.out.println("==========");
+
+	}
+	public int car(int modal) {
+		return modal;
+
+	}
+}
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car c=new Car();
+		c.car(2023,23,7);
+		c.car("fortuner", " white");
+		System.out.println(c.car(2026));
+	}
+
+}
