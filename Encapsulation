@@ -1,0 +1,25 @@
+public class Encapsulation {
+	private int marks;
+	private String name;
+	public void setName(String name) {
+		this.name=name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setMarks(int marks) {
+		this.marks=marks;
+	}
+	public int getMarks() {
+		return marks;
+	}
+		public static void main(String[] args) {
+		    Encapsulation e=new Encapsulation();
+		    e.setMarks(67);
+		    System.out.println(e.getMarks());
+		    e.setName("Aishu");
+		    System.out.println(e.getName());
+		}
+	}
+
+	
