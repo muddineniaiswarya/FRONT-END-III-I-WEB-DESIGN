@@ -1,0 +1,33 @@
+public class Poly2 {
+	public void parent() {
+		System.out.println("parent class");
+	}
+	public void over() {
+		System.out.println("same method name,parametrees,parent");
+	}
+	public class override extends Poly2{
+		@Override
+		public	void parent() {
+			System.out.println("child class");
+		}
+		@Override
+		public void over() {
+			System.out.println("child class");
+		}
+	}
+
+}
+//main method
+public class Mainpoly2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Poly2 p= new Poly2();
+        Poly2.override o=p.new override();
+        o.parent();
+        o.over();
+        p.parent();
+        p.over();
+	}
+
+}
