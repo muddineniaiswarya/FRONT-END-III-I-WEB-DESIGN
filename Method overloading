@@ -1,0 +1,27 @@
+public class Polymorphism {
+		void start() {
+			System.out.println("parent class");
+		}
+		public int capacity(int num) {
+			return num;	
+		}
+
+	public class overload extends Polymorphism{
+		void start() {
+			System.out.println("it is child class");
+		}
+	}
+}
+public class Mainpoly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Polymorphism p = new Polymorphism();
+Polymorphism.overload ob = p.new overload();
+
+
+		p.start();
+		System.out.println(p.capacity(5));
+	}
+
+}
