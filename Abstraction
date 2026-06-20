@@ -1,0 +1,24 @@
+//abstract classes
+public abstract class Parent {
+     abstract void hello();
+     public void hi() {
+    	 System.out.println("Hi");
+     }
+     public void hey() {
+    	 System.out.println("Hey Hello");
+     }
+}
+public class Child2 extends Parent {
+	@Override
+	public void hello() {
+		System.out.println("hello");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Child2 c=new Child2();
+		c.hello();
+		c.hi();
+		c.hey();
+	}
+}
