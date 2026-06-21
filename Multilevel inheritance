@@ -1,0 +1,24 @@
+public class Multilevel {
+       void m() {
+    	   System.out.println("parent class");
+       }
+       
+       public static void main(String[] args) {
+    	    C c=new C();
+    	    c.m();
+    	    c.s();
+    	    c.f();
+       }
+}
+
+public class Bc extends Multilevel{
+	void s() {
+		System.out.println("get properties from class multilevel");
+	}
+}
+class C extends Bc{
+	void f() {
+		System.out.println("get properties from class Bc ");
+	}
+
+}
