@@ -1,0 +1,29 @@
+public class Hierarchal {
+	void car() {
+		System.out.println("car is from parent class");
+	}
+}
+class I extends Hierarchal{
+	void start() {
+		System.out.println("car started");
+	}
+}
+class J extends Hierarchal{
+	void stop() {
+		System.out.println("car stopped");
+	}
+}
+public class MainHierarchal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		I h1=new I();
+		J h2=new J();
+        h1.car();
+        h2.car();
+        h1.start();
+        h2.stop();
+        
+	}
+
+}
