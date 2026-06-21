@@ -1,0 +1,22 @@
+public class SingleInheritance {
+  void Single() {
+	  System.out.println("parent class");
+  }
+}
+class child extends SingleInheritance{
+	  void inheritance() {
+		  System.out.println("parent class properties inherits to child class");
+		  System.out.println("it is single inheritance");
+	  }
+  }
+
+public class MainSingleI {
+
+	public static void main(String[] args) {
+		child c=new child();
+		c.Single();
+		c.inheritance();
+
+	}
+
+}
