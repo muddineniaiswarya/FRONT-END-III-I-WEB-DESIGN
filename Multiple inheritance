@@ -1,0 +1,24 @@
+interface Multiple {
+	void m1();
+void m2();
+}
+ public class Mainmultiple implements Multiple,Baisw {
+	@Override
+         public void m1() {
+			System.out.println("interface Multiple");
+		}
+	@Override
+        public void m2() {
+			System.out.println("Interface b");
+			
+		}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mainmultiple M=new Mainmultiple();
+		M.m1();
+		M.m2();
+
+	}
+
+}
