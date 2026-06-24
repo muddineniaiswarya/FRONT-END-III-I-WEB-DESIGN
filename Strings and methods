@@ -1,0 +1,49 @@
+public class Demo2 {
+
+	public static void main(String[] args) {
+		/* String s1="Sita"; it is stored in string constant pool.
+		It is stored in heap memory*/ 
+		/*String s3=new String("Sita"); It is stored in heap memory 
+		it is stored in string constant pool */
+		/* Difference between ==:comparing memory addresses and 
+		 .equals: comparing values*/
+		String s1="Sita m";
+		String s2="ram";
+		String s3=new String("Sita");
+		String s4=new String("sita");
+		System.out.println(s1==s2); //
+		System.out.println(s3.equals(s4));//  
+		System.out.println(s1==s3);
+		System.out.println(s2.charAt(0));//letter comes from 0th index
+		System.out.println(s2.toUpperCase());//changed to uppercase
+		System.out.println(s1.toLowerCase());//change to lowercase
+		System.out.println(s1.equalsIgnoreCase(s4));//equals are ignored
+		System.out.println(s1.startsWith("py"));//check the string start with
+		System.out.println(s2.endsWith("m"));//check the string with
+		System.out.println(s1.replace("Sita", "Aishu"));//replace of two string
+		System.out.println(s2.lastIndexOf("s"));//last index of a string
+		System.out.println(s1.trim());
+		System.out.println(s2.contains(s4));
+	}
+public class Demo4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*String builder and string buffer are same but  builder is faster 
+		 than buffer.The method are also same.we use these as classes 
+		 to make string mutable.strings are mutable.
+		 so memory is wasted.sowe use this methods*/
+		StringBuilder sb=new StringBuilder("java");
+		sb.append("programming");
+		System.out.println(sb);
+		System.out.println(sb.insert(1, "b"));
+		System.out.println(sb.delete(1, 4));
+		System.out.println(sb.replace(1, 4, "python"));
+		System.out.println(sb.reverse());
+
+	}
+
+}
+
+
+}
