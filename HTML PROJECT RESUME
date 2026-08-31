@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simple.css">
+</head>
+<body>
+    <h1 align="center"><b>MUDDINENI AISWARYA</b></h1>
+   <nav>
+        <a>muddineniaiswarya@gmail.com</a>&nbsp;
+        <a>8374541329</a>
+        <a href="https://www.linkedin.com/in/aiswarya-muddineni-851812382/">Linkdin</a>
+        <a href="https://github.com/muddineniaiswarya">Github</a>
+<nav>
+<hr>
+<h2>Career Objective</h2>
+<p>Motivated and hardworking B.Tech final-year student with a strong foundation in Java, Data Structures and Algorithms, HTML, CSS, and JavaScript. Seeking an entry-level software development opportunity where I can apply my programming skills, learn new technologies, solve real-world problems, and contribute effectively to the growth of the organization.</p>
+<hr>
+<h2>Educational Qualification</h2>
+<table border="1">
+    <tr>
+        <th>S.No</th>
+        <th>Education</th>
+        <th>Institue</th>
+        <th>passout years</th>
+        <th>percentage</th>
+    </tr>
+    <tr>
+       <td>1</td>
+       <td>B.Tech</td>
+       <td>SVIET</td>
+       <td>2023-2027</td>
+       <td>79%</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Intermediate</td>
+        <td>SVJC</td>
+        <td>2021-2023</td>
+        <td>93%</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>SSC</td>
+        <td>A.A.N.&V.V.R.S.R High School</td>
+        <td>2020-2021</td>
+        <td>86%</td>
+    </tr>
+</table>
+<hr>
+<h2>Projects</h2>
+<ol>
+    <li><p>A Smart Irrigation System automatically waters crops based on soil moisture and environmental conditions.
+It helps save water, reduce manual effort, and improve crop growth.</p></li>
+    <li><p>Created a professional resume portfolio using Prompt Engineering to generate and organize personalized content based on my skills, education, projects, and career goals.</p></li>
+    <li><p>Created a personal resume webpage using HTML, showcasing my education, skills, projects, and career objective.
+Used HTML tables, headings, links, and semantic elements to organize the resume in a structured format.</p></li>
+</ol>
+<hr>
+<h2>Certificates</h2>
+<ul>
+    <li>Smart irrigation system-2025</li>
+    <li>NPTEL-2026</li>
+    <li>Worked as CR-2025</li>
+    <li>Smart gadgets-2025</li>
+    <li>intern at datavalley-2026</li>
+</ul>
+</body>
+</html>
